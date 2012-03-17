@@ -1,0 +1,20 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+header {
+  padding: 20px 0 80px 0;
+}
+
+footer {
+  padding: 80px 0;
+}
+
+h1, h2 {
+  font-family: 'Signika', sans-serif;
+}
+
+.social-list a {
+  padding: 20px 20px 20px 0;
+}
