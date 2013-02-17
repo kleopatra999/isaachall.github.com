@@ -1,20 +1,116 @@
+/**
+ * CSS Reset
+ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
 body {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**
+ * Styles
+ */
+
+body {
+  padding-top: 10px;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  background: #f0f0f0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 888px;
 }
 
 header {
-  padding: 20px 0 80px 0;
+  padding: 10px 0 24px 0;
 }
 
 footer {
-  padding: 80px 0;
+  padding: 32px 0 16px;
 }
 
-h1, h2 {
+h1 {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 24px;
+  line-height: 36px;
+}
+h3 {
+  line-height: 27px;
+  font-size: 18px;
+  font-weight: bold;
+}
+h3, p {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1, h2, h3 {
   font-family: 'Signika', sans-serif;
 }
 
+#galleria{
+  width: 864px;
+  height: 596px;
+  padding: 12px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.2);
+  box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+
+footer p {
+  line-height: 32px;
+  vertical-align: middle;
+}
+.social-list {
+  float: right;
+}
 .social-list a {
   padding: 20px 20px 20px 0;
+}
+.social-list a:last-child {
+  padding: 0;
 }
